@@ -154,8 +154,8 @@ header{
     gap: 2.4rem;
 }
 .box .ser{
-    height:  60px;
-    width: 70px;
+    height:  90px;
+    width: 100px;
 }
 .sales .box{
     padding: 20px;
@@ -288,6 +288,7 @@ font-weight: 400;
     height:120px;
     width: 150px;
 }
+
 .social a{
     font-size: 20px;
     margin-right: 1rem;
@@ -321,6 +322,10 @@ font-weight: 400;
     .footer-container{
         grid-template-columns: repeat(auto-fit,minmax(200px,auto));
         gap: 1rem;
+    }
+    .box .ser{
+        width: 70px;
+        height: 60px;
     }
 }
 @media (max-width:768px){
